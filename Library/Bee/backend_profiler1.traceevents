@@ -1,0 +1,484 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668614640593815, "dur":1338, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614640595162, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668614640595227, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668614640595243, "dur":260, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668614640595528, "dur":493, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614640596021, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641900826, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901003, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901017, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901019, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901026, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901028, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901033, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901036, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901042, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901044, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901050, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901053, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901059, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901069, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641901109, "dur":1344, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668614640595849, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640596049, "dur":4832, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640600890, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668614640600894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640601717, "dur":290, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668614640602010, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668614640602055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640602200, "dur":7904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668614640610107, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668614640610225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640610232, "dur":207354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668614640817622, "dur":12558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614640830183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640830188, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614640830998, "dur":58267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614640889267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614640889274, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614640890026, "dur":125117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641015150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641015160, "dur":19567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641034763, "dur":97556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641132324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641132334, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641133324, "dur":78938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641212266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641212273, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641213161, "dur":21069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641234234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641234240, "dur":19295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641253570, "dur":35273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641288845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641288851, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641289618, "dur":26813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641316435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641316442, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641318446, "dur":16462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641334910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641334918, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641335690, "dur":54288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641389982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641389989, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641391006, "dur":22895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641413905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641413913, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641416834, "dur":1568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641418406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641418414, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641419160, "dur":13807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641432971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641432979, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641433779, "dur":18534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641452318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641452325, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641453052, "dur":101701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641554755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641554777, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641555770, "dur":113420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641669195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641669205, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641670354, "dur":88486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641758844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668614641758851, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668614641759909, "dur":140941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640596171, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640596171, "dur":4782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640600953, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1668614640601088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640605249, "dur":8425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1668614640613712, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668614640613791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640613812, "dur":203186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668614640817040, "dur":13080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614640830125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640830134, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614640830907, "dur":36378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614640867289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614640867295, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614640868352, "dur":132738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641001095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641001102, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641002222, "dur":71405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641073634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641073645, "dur":8552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641082237, "dur":96424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641178668, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641178680, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641179538, "dur":53663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641233204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641233209, "dur":6523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641239764, "dur":11304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641251072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641251079, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641252553, "dur":24751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641277309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641277316, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641278204, "dur":12810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641291018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641291025, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641292993, "dur":38607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641331604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641331611, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641332649, "dur":33312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641365966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641365973, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641366755, "dur":157696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641524455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641524463, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641525378, "dur":21910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641547292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641547301, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641548211, "dur":63494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641611709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641611718, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641615398, "dur":88965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641704367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641704373, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641705710, "dur":16982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641722695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641722700, "dur":5028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668614641727766, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668614641727798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641727806, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668614641730891, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1668614641731014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641731022, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1668614641732006, "dur":5709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1668614641737720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641737748, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1668614641739871, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668614641739906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641739912, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1668614641740844, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1668614641740875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641740881, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1668614641743067, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668614641743103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668614641743109, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1668614641744032, "dur":156792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640595970, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640596075, "dur":4879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640600954, "dur":9272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668614640610228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640610240, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668614640611451, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668614640611541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640611587, "dur":8334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668614640619960, "dur":9202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668614640629165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640629171, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668614640630324, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668614640630404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640630409, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668614640633520, "dur":2703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640636227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640636422, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640637509, "dur":131219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640768731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640768737, "dur":25858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640794631, "dur":97379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640892013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640892021, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640892952, "dur":36810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640929766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614640929773, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614640930614, "dur":89260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641019876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641019881, "dur":26314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641046356, "dur":35830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641082227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641082293, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641083254, "dur":96526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641179783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641179790, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641180771, "dur":51382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641232157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641232165, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641236715, "dur":14465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641251182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641251187, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641252607, "dur":19904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641272514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641272523, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641273495, "dur":14200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641287698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641287705, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641288597, "dur":27840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641316439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641316444, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641318380, "dur":22134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641340518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641340525, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641341437, "dur":41747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641383188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641383195, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641384021, "dur":14554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641398579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641398588, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641399292, "dur":20304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641419599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641419606, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641421589, "dur":17314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641438908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641438916, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641439778, "dur":62237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641502019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641502027, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641502872, "dur":51734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641554610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641554618, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641555656, "dur":21405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641577066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641577075, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641577907, "dur":122881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641700793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641700802, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641703020, "dur":144340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641847377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668614641847385, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668614641848387, "dur":52442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640596078, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640596078, "dur":4874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640600952, "dur":9086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668614640610042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640610056, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668614640611003, "dur":6864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668614640617872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640617882, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668614640618811, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668614640618917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640619224, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668614640621408, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668614640621533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640621576, "dur":8262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668614640629875, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668614640630005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640630014, "dur":200983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668614640831038, "dur":11960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640843002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640843011, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640843720, "dur":26425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640870150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640870158, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640873569, "dur":31588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640905161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640905168, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640905989, "dur":26774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640932769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614640932777, "dur":18572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614640951381, "dur":68223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641019608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641019615, "dur":21885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641041568, "dur":41902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641083472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641083479, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641087389, "dur":94502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641181895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641181903, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641182904, "dur":49757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641232664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641232670, "dur":7864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641240567, "dur":46134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641286706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641286714, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641287570, "dur":18606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641306182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641306204, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641306925, "dur":85921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641392850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641392859, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641393710, "dur":30999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641424714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641424721, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641426388, "dur":16691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641443083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641443091, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641443832, "dur":169106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641612943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641612952, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641617397, "dur":78206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641695607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641695614, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641696652, "dur":201499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641898154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668614641898162, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668614641900809, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1668614641900811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640596290, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640596290, "dur":4661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640600951, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668614640601062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640602419, "dur":7695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668614640610162, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668614640610241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640610499, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668614640612349, "dur":9354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640621706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640621713, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640622416, "dur":6459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640628879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640628887, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640630316, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640630402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640630408, "dur":9587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668614640640040, "dur":10191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668614640650238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640650246, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668614640652120, "dur":22038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668614640674163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640674169, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668614640675446, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1668614640675551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640675787, "dur":16916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1668614640692750, "dur":45636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640738390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640738459, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640739450, "dur":24818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640764271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640764276, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640765021, "dur":27216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640792243, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640792255, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640793226, "dur":15015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640808245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640808253, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640810392, "dur":21278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640831674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640831683, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640832941, "dur":31963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640864908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640864918, "dur":8596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640873547, "dur":14530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640888081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640888088, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640889066, "dur":62204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640951274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614640951281, "dur":12140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614640963453, "dur":128131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641091590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641091601, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641095174, "dur":61564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641156742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641156749, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641157809, "dur":41189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641199002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641199011, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641202276, "dur":85566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641287859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641287864, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641288818, "dur":43802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641332622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641332628, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641334516, "dur":65367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641399886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641399893, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641402674, "dur":23961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641426637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641426644, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641427365, "dur":19220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641446588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641446594, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641447317, "dur":64304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641511625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641511632, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641512509, "dur":53085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641565598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641565605, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641566462, "dur":153598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641720064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641720088, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668614641722268, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668614641722376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641724234, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668614641724927, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1668614641724961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641725027, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1668614641725867, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668614641725900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668614641725906, "dur":30474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668614641756413, "dur":144410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640596411, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640596412, "dur":4504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640600917, "dur":31628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1668614640632549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640634446, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1668614640635655, "dur":68749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640704408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640704486, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640708718, "dur":12812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640721545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640721811, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640722817, "dur":15619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640738438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640738498, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640739557, "dur":24594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640764156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640764163, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640765103, "dur":15485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640780593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640780600, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640781387, "dur":23338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640804729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640804737, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640805645, "dur":15535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640821185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640821192, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640822174, "dur":22682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640844859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614640844866, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614640845575, "dur":155516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641001095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641001164, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641002891, "dur":64920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641067816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641067826, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641068672, "dur":94861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641163537, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641163547, "dur":9227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641172814, "dur":52832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641225649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641225657, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641226495, "dur":21092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641247592, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641247606, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641252615, "dur":19895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641272514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641272523, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641273445, "dur":80343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641353792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641353799, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641355022, "dur":49814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641404841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641404849, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641405747, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641406725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641406731, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641407488, "dur":37850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641445342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641445349, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641446290, "dur":37812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641484106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641484113, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641484834, "dur":98870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641583708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641583716, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641586198, "dur":26872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641613072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641613077, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641615572, "dur":75078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641690654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641690661, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641691512, "dur":50846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641742362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641742369, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668614641743162, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1668614641743194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641743198, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1668614641744029, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668614641744129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668614641744133, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/W0470361/Builds/TerrainChallenge/TerrainChallenge_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668614641744798, "dur":156065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668614641903674, "dur":1539, "ph":"X", "name": "ProfilerWriteOutput" }
+,
